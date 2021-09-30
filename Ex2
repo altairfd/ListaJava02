@@ -1,0 +1,19 @@
+import javax.swing.JOptionPane;
+
+public class App {
+   public static void main(String[] args) {
+      //Lista de numero de N ate 0
+
+      String numero;
+      int n;
+
+      numero = JOptionPane.showInputDialog("Informe o valor de N");
+      n = Integer.parseInt(numero);
+
+      int i = n;
+      while ( i != 0) {
+         System.out.println(i);
+         i--;
+      }
+   }
+}
